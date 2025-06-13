@@ -37,7 +37,7 @@ public class BasePage {
             WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(10));
             wait.until(ExpectedConditions.visibilityOf(element));
             boolean displayed = element.isDisplayed();
-            System.out.println("Element görünür durumda: " + element + " - " + displayed);
+            System.out.println("Element görünür durumda : " + element + " - " + displayed);
             return displayed;
         } catch (Exception e) {
             System.out.println("Element görünür değil: " + element);
