@@ -1,5 +1,7 @@
 package com.mobvenCallRecorder.pages;
 
+//--------------------------------###### Coordinate Points Enum ######-----------------------------------------------\\
+
 public enum TapPoint {
     //-------- Contacts Locators-----------
     Contacts_First_User(0, 184),
@@ -10,7 +12,9 @@ public enum TapPoint {
     ContactFavoriteButtonHidden(6,184),
     DeletePopUpDeleteButton(207,490),
     ContactWithFavorite(0,184),
+    Record_Transcribe(124,558),
     AfterSearchBarFirstContact(0,249);
+
     //-------- New Contact Bottom Sheet Locators-----------
  /*   New_Contact_Name(16,242),
     New_Contact_Phone(16,495),
@@ -20,7 +24,6 @@ public enum TapPoint {
     Contact_Page_Back_Button(0,44),
     Record_Page_Favourite_Button(16,763),
     Record_Speed(372,763),
-    Record_Transcribe(156,558),
     Record_Share_Button(16,829),
     Record_Delete_Button(370,829),
     Record_Detail_Page_Assigned_Person_Button(76,114),

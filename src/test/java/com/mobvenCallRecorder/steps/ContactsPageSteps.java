@@ -1,4 +1,4 @@
 package com.mobvenCallRecorder.steps;
 
-public class RecordsPageSteps {
+public class ContactsPageSteps {
 }
