@@ -10,7 +10,7 @@ public class ReleaseSteps {
 
     @Given("User was able to click favorite button")
     public void userWasAbleToClickFavoriteButton() {
-        BasePage.waitFor(3);
+        BasePage.waitFor(5);
  //       BasePage.forceClickAt(98 , 363);
         // Alternatif: BasePage.waitForElement(RecordsPage.favoriteFilterRecordsPage, 30);
     }
